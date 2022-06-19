@@ -17,3 +17,5 @@ let mySprite = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player)
 mySprite.setPosition(82, 53)
+mySprite.setBounceOnWall(true)
+mySprite.setVelocity(50, 50)
