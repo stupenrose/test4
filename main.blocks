@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="?]@Fl}mg;e4qQNquDCqm">Player</variable><variable type="KIND_SpriteKind" id="`[7pOFxANc|bYOqakuA_">Projectile</variable><variable type="KIND_SpriteKind" id="z5QUZcBg5U^VPAy.P,al">Food</variable><variable type="KIND_SpriteKind" id="WvgTQt$q?36hcd=jO_]j">Enemy</variable><variable id="QmzR,R6:`81R{CT^P+wR">mySprite</variable><variable id="6.mxD.+ojEaPVq11p^V*">item</variable></variables><block type="pxt-on-start" id=",JBwfP{V%zfuB~Js5-hA" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="Y]Axhu9^U]Xcbt^$aq-s"><field name="VAR" id="QmzR,R6:`81R{CT^P+wR">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="(ApaAn}T|!9_CK|@~]w]"><value name="img"><shadow type="screen_image_picker" id="xM5mxHy=O2]oY)VjNK*x"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . 3 3 3 3 3 3 3 . . . . . 
+. . . . 3 . . 3 3 3 . 3 . . . . 
+. . . 3 . . . 3 3 . 3 3 . . . . 
+. . . 3 . . . 3 . 3 3 3 . . . . 
+. . . . 3 . . 3 3 3 3 3 . . . . 
+. . . . . 3 3 3 3 3 . 3 . . . . 
+. . . . . . . 3 . . . 3 . . . . 
+. . . . . . 3 3 3 3 3 . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"xM5mxHy=O2]oY)VjNK*x"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="0%o|U)D3gv+bC`HskTXv"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesetpos" id=";Ss1t?V:047:EabkC/bz"><value name="sprite"><block type="variables_get" id="x(;~fBkOc2O5g|58}b.Z"><field name="VAR" id="QmzR,R6:`81R{CT^P+wR">mySprite</field></block></value><value name="x"><shadow type="positionPicker" id="o#j0oK2Vobq*p4F5eiz{"><field name="index">82</field></shadow></value><value name="y"><shadow type="positionPicker" id="aJeUaP|Zq$oasKE]qU^k"><field name="index">53</field></shadow></value></block></next></block></statement></block></xml>
